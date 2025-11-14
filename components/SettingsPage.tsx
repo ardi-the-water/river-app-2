@@ -1,7 +1,8 @@
+
 import React, { useState, useContext, useEffect, useRef } from 'react';
-import { AppContext } from '../App';
-import * as db from '../services/dbService';
-import { Settings } from '../types';
+import { AppContext } from '../App.tsx';
+import * as db from '../services/dbService.ts';
+import { Settings } from '../types.ts';
 
 const SettingsPage: React.FC = () => {
   const { settings, updateSettings, refreshMenu } = useContext(AppContext);

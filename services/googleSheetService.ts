@@ -1,5 +1,6 @@
-import { parseCSV } from '../utils/helpers';
-import { MenuItem } from '../types';
+
+import { parseCSV } from '../utils/helpers.ts';
+import { MenuItem } from '../types.ts';
 
 export const fetchMenuData = async (url: string): Promise<MenuItem[]> => {
   if (!url) {

@@ -1,8 +1,8 @@
 
 import React, { useContext } from 'react';
-import { MenuItem } from '../types';
-import { AppContext } from '../App';
-import { formatCurrency } from '../utils/helpers';
+import { MenuItem } from '../types.ts';
+import { AppContext } from '../App.tsx';
+import { formatCurrency } from '../utils/helpers.ts';
 
 interface MenuItemCardProps {
   item: MenuItem;

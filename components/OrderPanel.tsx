@@ -1,9 +1,10 @@
+
 import React, { useState, useContext, useEffect } from 'react';
-import { OrderItem, Invoice } from '../types';
-import { AppContext } from '../App';
-import * as db from '../services/dbService';
-import { toPersianDate, formatCurrency, generateInvoiceId } from '../utils/helpers';
-import { Trash2Icon, PlusIcon, MinusIcon } from './icons';
+import { OrderItem, Invoice } from '../types.ts';
+import { AppContext } from '../App.tsx';
+import * as db from '../services/dbService.ts';
+import { toPersianDate, formatCurrency, generateInvoiceId } from '../utils/helpers.ts';
+import { Trash2Icon, PlusIcon, MinusIcon } from './icons.tsx';
 
 interface OrderPanelProps {
   orderItems: OrderItem[];

@@ -1,9 +1,9 @@
 
 import React, { useContext } from 'react';
-import { Invoice } from '../types';
-import { AppContext } from '../App';
-import { formatCurrency } from '../utils/helpers';
-import { XIcon, PrinterIcon } from './icons';
+import { Invoice } from '../types.ts';
+import { AppContext } from '../App.tsx';
+import { formatCurrency } from '../utils/helpers.ts';
+import { XIcon, PrinterIcon } from './icons.tsx';
 
 interface InvoiceDetailModalProps {
     invoice: Invoice;

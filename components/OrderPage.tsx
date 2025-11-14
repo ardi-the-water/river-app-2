@@ -1,8 +1,9 @@
+
 import React, { useState, useContext, useMemo, useEffect } from 'react';
-import { AppContext } from '../App';
-import { MenuItem, OrderItem, Invoice } from '../types';
-import MenuItemCard from './MenuItemCard';
-import OrderPanel from './OrderPanel';
+import { AppContext } from '../App.tsx';
+import { MenuItem, OrderItem, Invoice } from '../types.ts';
+import MenuItemCard from './MenuItemCard.tsx';
+import OrderPanel from './OrderPanel.tsx';
 
 interface OrderPageProps {
   invoiceToEdit: Invoice | null;

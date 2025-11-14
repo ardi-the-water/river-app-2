@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { View } from '../types';
-import { CoffeeIcon, FileTextIcon, SettingsIcon } from './icons';
+import { View } from '../types.ts';
+import { CoffeeIcon, FileTextIcon, SettingsIcon } from './icons.tsx';
 
 interface HeaderProps {
   currentView: View;

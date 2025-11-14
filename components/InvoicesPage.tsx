@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import * as db from '../services/dbService';
-import { Invoice } from '../types';
-import { formatCurrency, exportInvoicesToCSV } from '../utils/helpers';
-import { PrinterIcon, Trash2Icon, EditIcon } from './icons';
-import InvoiceDetailModal from './InvoiceDetailModal';
+import * as db from '../services/dbService.ts';
+import { Invoice } from '../types.ts';
+import { formatCurrency, exportInvoicesToCSV } from '../utils/helpers.ts';
+import { PrinterIcon, Trash2Icon, EditIcon } from './icons.tsx';
+import InvoiceDetailModal from './InvoiceDetailModal.tsx';
 
 interface InvoicesPageProps {
     onEditInvoice: (invoice: Invoice) => void;

@@ -1,4 +1,4 @@
-import { Invoice } from '../types';
+import { Invoice } from '../types.ts';
 
 export const parseCSV = (csvText: string): Record<string, any>[] => {
   const lines = csvText.trim().split('\n');

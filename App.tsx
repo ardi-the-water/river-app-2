@@ -1,11 +1,12 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
-import { View, Settings, MenuItem, OrderItem, Invoice } from './types';
-import Header from './components/Header';
-import OrderPage from './components/OrderPage';
-import InvoicesPage from './components/InvoicesPage';
-import SettingsPage from './components/SettingsPage';
-import * as db from './services/dbService';
-import { fetchMenuData } from './services/googleSheetService';
+import { View, Settings, MenuItem, OrderItem, Invoice } from './types.ts';
+import Header from './components/Header.tsx';
+import OrderPage from './components/OrderPage.tsx';
+import InvoicesPage from './components/InvoicesPage.tsx';
+import SettingsPage from './components/SettingsPage.tsx';
+import * as db from './services/dbService.ts';
+import { fetchMenuData } from './services/googleSheetService.ts';
 
 export const AppContext = React.createContext<{
   settings: Settings | null;

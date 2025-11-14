@@ -1,6 +1,6 @@
 
 import { openDB, IDBPDatabase } from 'idb';
-import { Settings, Invoice } from '../types';
+import { Settings, Invoice } from '../types.ts';
 
 const DB_NAME = 'FishCafeDB';
 const DB_VERSION = 1;
