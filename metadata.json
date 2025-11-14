@@ -1,0 +1,5 @@
+{
+  "name": "فیش‌کافه",
+  "description": "A single-page web application for cafés and restaurants to take and manage orders, register invoices/receipts, and manage settings, with data synced from Google Sheets.",
+  "requestFramePermissions": []
+}
